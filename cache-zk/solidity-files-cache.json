@@ -1,0 +1,57 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/beadle/zkSyncTEST/contracts/zkNEET.sol": {
+      "lastModificationDate": 1683011112626,
+      "contentHash": "6f0877394ca88fb8e9e3ea5d94571607",
+      "sourceName": "contracts/zkNEET.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.3.8",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3"
+            },
+            "compilerPath": "",
+            "experimental": {}
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.5"
+      ],
+      "artifacts": [
+        "Auth",
+        "DividendDistributor",
+        "IBEP20",
+        "IDEXFactory",
+        "IDEXRouter",
+        "IDividendDistributor",
+        "SafeMath",
+        "zkNEET"
+      ]
+    }
+  }
+}
